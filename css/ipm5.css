@@ -1,0 +1,503 @@
+@charset "UTF-8";
+.ipm_body {
+	font-family: Verdana, Geneva, sans-serif;
+	font-size: 12px;
+	color: #666;
+	background-color: #FFF;
+	height: auto;
+	width: 98%;
+	border: 1px solid #666;
+	border-radius: 7px;
+	moz-border-radius: 7px;
+	margin: auto;
+	padding-left: 10px;
+	padding-right: 10px;
+	padding-bottom: 10px;
+	padding-top: 20px;
+	position: relative;
+}
+h1 {
+	font-size: 24px;
+}
+body {
+	margin-top: 10px;
+	margin-left: 10px;
+	margin-right: 10px;
+	margin-bottom: 10px;
+	background-attachment: fixed;
+	background-color: #919191;
+	background-image: url(../images/ipm_bg.jpg);
+	background-repeat: repeat-x;
+	background-position: 0px 0px;
+}
+.banner {
+	width:100%;
+	height:80px;
+}
+.banner #ipm_banner {
+	float:left;
+}
+.banner #ipm_search {
+	font-family: Verdana, Geneva, sans-serif;
+	font-size: 10px;
+	color: #666;
+	background-color: #ffffff;
+	height: 30px;
+	width: 200px;
+	border-top: 1px solid #666;
+	border-left: 1px solid #666;
+	border-bottom: 1px solid #666;
+	border-top-left-radius: 7px;
+	border-bottom-left-radius: 7px;
+	moz-border-top-left-radius: 7px;
+	moz-border-bottom-left-radius: 7px;
+	position:relative;
+	float:left;
+	margin-top: 20px;
+	margin-left: 50px;
+}
+.banner #search {
+	position:absolute;
+	left:10px;
+	border:none;
+	font-family: Verdana, Geneva, sans-serif;
+	font-size: 16px;
+	color: #666;
+	width:180px;
+	height:28px;
+	float:left;
+}
+.banner #ipm_search_button {
+	font-family: Verdana, Geneva, sans-serif;
+	font-size: 10px;
+	color: #666;
+	background-color: #ffffff;
+	height: 30px;
+	width: 30px;
+	border-top: 1px solid #666;
+	border-right: 1px solid #666;
+	border-bottom: 1px solid #666;
+	border-top-right-radius: 7px;
+	border-bottom-right-radius: 7px;
+	moz-border-top-right-radius: 7px;
+	moz-border-bottom-right-radius: 7px;
+	moz-border-radius: 7px;
+	position:relative;
+	float:left;
+	margin-top: 20px;
+	margin-left: 0px;
+}
+.banner #ipm_search_icon {
+	position:absolute;
+	top:50%;
+	margin-top: -10px;
+}
+.banner #ipm_header {
+	position:relative;
+	float:left;
+	margin-top: 20px;
+	margin-left: 50px;
+}
+.banner #ipm_search_cancel {
+	position:absolute;
+	top:50%;
+	margin-top:-7px;
+	right:-50px;
+}
+.input_standard {
+	font-family: Verdana, Geneva, sans-serif;
+	font-size: 12px;
+	color: #666;
+	background-color: #efefef;
+	border: 1px solid #dedede;
+	border-radius: 5px;
+	moz-border-radius: 3px;
+}
+.input_selected {
+	font-family: Verdana, Geneva, sans-serif;
+	color: #555555;
+	border: none;
+	background-color:none;
+	font-weight:bold;
+}
+.input_providewizard {
+	font-family: Verdana, Geneva, sans-serif;
+	font-size: 12px;
+	color: #666;
+	font-weight:bold;
+	background-color: #efefef;
+	border: 2px solid #dedede;
+	border-radius: 5px;
+	moz-border-radius: 3px;
+	text-decoration:none;
+	padding:5px;
+	margin:10px;
+}
+.text_red {
+	color: red;
+}
+.ipm_footer {
+	width:50%;
+	margin: auto;
+	font-family: Verdana, Geneva, sans-serif;
+	font-size: 10px;
+	color: #666;
+	text-align:center;
+}
+.ipm_nav {
+	position:absolute;
+	width:auto;
+	height: 25px;
+	top: -12px;
+	box-shadow: 2px 2px 5px #888888;
+	border-left: 1px solid #ccc;
+	border-right: 1px solid #ccc;
+	border-bottom: 1px solid #ccc;
+}
+a {
+	color:#2262B5;
+}
+.searchQ {
+	font-family: Verdana, Geneva, sans-serif;
+	font-size: 10px;
+	color: #666;
+	position:absolute;
+	left: 360px;
+	top:55px;
+	width:auto;
+	background-color: #ffffff;
+	height:auto;
+	padding:2px;
+	display:none;
+	z-index:12000;
+	box-shadow: 2px 2px 5px #888888;
+	border: 1px solid #ccc;
+}
+.searchQ_1 {
+	font-family: Verdana, Geneva, sans-serif;
+	font-size: 10px;
+	color: #666;
+	position:absolute;
+	width:auto;
+	background-color: #ffffff;
+	height:auto;
+	padding:2px;
+	display:none;
+	z-index:12000;
+	border: 1px solid #ccc;
+}
+input:focus {
+    outline: none;
+}
+input[type="submit"] {
+	background-color:#efefef;
+	border: solid 2px #dedede;
+}
+input[type="button"] {
+	background-color:#efefef;
+	border: solid 2px #dedede;
+}
+img {
+	border: none;
+}
+.ipm_linkview_ctrl {
+	width:100%;
+}
+.ipm_linkview {
+	position:relative;
+	left: 20px;
+	height: 200px;
+	width:625px;
+	border-top: 1px solid #ccc;
+	border-left: 1px solid #ccc;
+	border-bottom: 1px solid #ccc;
+	border-right: 1px dashed #ccc;
+	border-radius: 5px;
+	moz-border-radius: 5px;
+	margin-top: 30px;
+	float:left;
+}
+.ipm_linkview #ipm_linkview_nodea {
+	left:50px;
+	position:absolute;
+	width: 500px;
+	height: 30px;
+	margin-top: -18px;
+	padding: 3px;
+	background-color:#ffffff;
+	border: 1px solid #ccc;
+	border-radius: 5px;
+	moz-border-radius: 5px;
+	text-align:center;
+	background-color:#fafafa;
+}
+.ipm_linkview #ipm_linkview_porta_icon {
+	position:absolute;
+	width: 70px;
+	height: 70px;
+	top: 50%;
+	left: 10px;
+	margin-top: -45px;
+	border: 1px dashed #ccc;
+	border-radius: 7px;
+	moz-border-radius: 7px;
+	padding: 10px;
+	text-align: center;
+	
+}
+.ipm_linkview #ipm_linkview_vlana {
+	position:absolute;
+	width: 100px;
+	height: 80px;
+	top: 50%;
+	left: 101px;
+	margin-top: -50px;
+	padding: 10px;
+	text-align: center;
+	border: 1px dashed #ccc;
+	border-radius: 7px;
+	moz-border-radius: 7px;
+}
+.ipm_linkview #ipm_linkview_vpna {
+	position:absolute;
+	width: 200px;
+	height: 80px;
+	top: 50%;
+	left: 425px;
+	margin-top: -50px;
+	padding: 10px;
+	text-align: center;
+	background-image: url('../images/ipm_bg_vpn.png');
+	background-repeat: no-repeat;
+	background-position: center middle;
+	border: none;
+}
+.ipm_linkview #ipm_linkview_vpna_none {
+	position:absolute;
+	width: 200px;
+	height: 80px;
+	top: 50%;
+	left: 425px;
+	margin-top: -50px;
+	padding: 10px;
+	text-align: center;
+	background-image: url('../images/ipm_bg_vpn_none.png');
+	background-repeat: no-repeat;
+	background-position: center middle;
+	border: none;
+}
+.ipm_linkview #ipm_linkview_ipa {
+	position:absolute;
+	width: 200px;
+	height: 80px;
+	top: 50%;
+	left: 222px;
+	margin-top: -50px;
+	padding: 10px;
+	text-align: center;
+	border: 1px dashed #ccc;
+	border-radius: 7px;
+	moz-border-radius: 7px;
+	overflow:auto;
+	background-image: url('../images/ipm_icon_network.png');
+	background-repeat: no-repeat;
+	background-position: top left;
+	z-index: 100;
+}
+.ipm_linkview #ipm_linkview_ipa_none {
+	position:absolute;
+	width: 200px;
+	height: 80px;
+	top: 50%;
+	left: 222px;
+	margin-top: -50px;
+	padding: 10px;
+	text-align: center;
+	border: 1px dashed #ccc;
+	border-radius: 7px;
+	moz-border-radius: 7px;
+	overflow:auto;
+	background-image: url('../images/ipm_icon_network_none.png');
+	background-repeat: no-repeat;
+	background-position: center center;
+}
+.ipm_linkviewb {
+	position:relative;
+	left: 20px;
+	height: 200px;
+	width:625px;
+	border-top: 1px solid #ccc;
+	border-right: 1px solid #ccc;
+	border-bottom: 1px solid #ccc;
+	border-left: 1px dashed #ccc;
+	border-radius: 5px;
+	moz-border-radius: 5px;
+	margin-top: 30px;
+	float:left;
+}
+.ipm_linkviewb_none {
+	position:relative;
+	left: 20px;
+	height: 200px;
+	width:625px;
+	border-top: 1px solid #ccc;
+	border-right: 1px solid #ccc;
+	border-bottom: 1px solid #ccc;
+	border-left: 1px dashed #ccc;
+	border-radius: 5px;
+	moz-border-radius: 5px;
+	margin-top: 30px;
+	float:left;
+	background-image: url('../images/ipm_nodeb_none.png');
+	background-repeat: no-repeat;
+	background-position: center center;
+}
+.ipm_linkviewb_vpn {
+	position:relative;
+	left: 20px;
+	height: 200px;
+	width:625px;
+	border-top: 1px solid #ccc;
+	border-right: 1px solid #ccc;
+	border-bottom: 1px solid #ccc;
+	border-left: 1px dashed #ccc;
+	border-radius: 5px;
+	moz-border-radius: 5px;
+	margin-top: 30px;
+	float:left;
+	background-image: url('../images/ipm_bg_vpnb_none.png');
+	background-repeat: no-repeat;
+	background-position: center center;
+}
+.ipm_linkviewb #ipm_linkview_vpnb {
+	position:absolute;
+	width: 200px;
+	height: 80px;
+	top: 50%;
+	left: 0px;
+	margin-top: -50px;
+	padding: 10px;
+	text-align: center;
+	background-image: url('../images/ipm_bg_vpnb.png');
+	background-repeat: no-repeat;
+	background-position: center middle;
+	border: none;
+}
+.ipm_linkviewb #ipm_linkview_vpnb_none {
+	position:absolute;
+	width: 200px;
+	height: 80px;
+	top: 50%;
+	left: 0px;
+	margin-top: -50px;
+	padding: 10px;
+	text-align: center;
+	background-image: url('../images/ipm_bg_vpnb_none.png');
+	background-repeat: no-repeat;
+	background-position: center middle;
+	border: none;
+}
+.ipm_linkviewb #ipm_linkview_ipb {
+	position:absolute;
+	width: 200px;
+	height: 80px;
+	top: 50%;
+	left: 180px;
+	margin-top: -50px;
+	padding: 10px;
+	text-align: center;
+	border: 1px dashed #ccc;
+	border-radius: 7px;
+	moz-border-radius: 7px;
+	overflow:auto;
+	background-image: url('../images/ipm_icon_network.png');
+	background-repeat: no-repeat;
+	background-position: top right;
+	z-index: 100;
+}
+.ipm_linkviewb #ipm_linkview_ipb_none {
+	position:absolute;
+	width: 200px;
+	height: 80px;
+	top: 50%;
+	left: 180px;
+	margin-top: -50px;
+	padding: 10px;
+	text-align: center;
+	border: 1px dashed #ccc;
+	border-radius: 7px;
+	moz-border-radius: 7px;
+	overflow:auto;
+	background-image: url('../images/ipm_icon_network_none.png');
+	background-repeat: no-repeat;
+	background-position: center center;
+}
+.ipm_linkviewb #ipm_linkview_vlanb {
+	position:absolute;
+	width: 100px;
+	height: 80px;
+	top: 50%;
+	left: 401px;
+	margin-top: -50px;
+	padding: 10px;
+	text-align: center;
+	border: 1px dashed #ccc;
+	border-radius: 7px;
+	moz-border-radius: 7px;
+}
+.ipm_linkviewb #ipm_linkview_portb_icon {
+	position:absolute;
+	width: 70px;
+	height: 70px;
+	top: 50%;
+	left: 522px;
+	margin-top: -45px;
+	border: 1px dashed #ccc;
+	border-radius: 7px;
+	moz-border-radius: 7px;
+	padding: 10px;
+	text-align: center;
+	
+}
+.ipm_linkviewb #ipm_linkview_nodeb {
+	left:50px;
+	position:absolute;
+	width: 500px;
+	height: 30px;
+	margin-top: -18px;
+	padding: 3px;
+	background-color:#ffffff;
+	border: 1px solid #ccc;
+	border-radius: 5px;
+	moz-border-radius: 5px;
+	text-align:center;
+	background-color:#fafafa;
+}
+.wizard_summary {
+	float:right;
+	position:relative;
+	width:500px;
+	height:auto;
+	padding:10px;
+	background-color:#AEBDD0;
+	border:#0D5E93 solid 1px;
+	border-radius: 7px;
+	moz-border-radius: 7px;
+	color:#0D5E93;
+	margin:10px;
+}
+	
+.report_objectheader {
+	border-bottom: solid 1px #666666;
+	font-size:14px;
+}
+.report_objectsubheader {
+	border-bottom: solid 1px #666666;
+	font-size:12px;
+}
+.report_objectrow {
+	border-bottom: solid 1px #DEDEDE;
+}
+.report_subheader {
+	font-size:10px;
+}
