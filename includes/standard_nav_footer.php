@@ -7,7 +7,7 @@ $totalRows_getUser = mysql_num_rows($getUser);
 ?>
 
 <li><a class="NOLINK"><img src="images/admin_icon.gif" alt="Admin" width="20" height="20" align="absmiddle" border="0" /> Admin</a>
-	<?php if ($ipm->getPageLevel(3,$_SESSION['MM_Username']) > 0 || getPageLevel(4,$_SESSION['MM_Username']) > 0 || getPageLevel(5,$_SESSION['MM_Username']) > 0) { ?>
+	<?php if ($ipm->getPageLevel(3,$_SESSION['MM_Username']) > 0 || $ipm->getPageLevel(4,$_SESSION['MM_Username']) > 0 || $ipm->getPageLevel(5,$_SESSION['MM_Username']) > 0) { ?>
     <ul>
         <?php if ($ipm->getPageLevel(3,$_SESSION['MM_Username']) > 0) { ?>
         <li><a href="userGroupView.php" title="Manage user and group access.">User Groups</a></li>
